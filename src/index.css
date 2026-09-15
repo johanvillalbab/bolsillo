@@ -1,0 +1,62 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #006e2c;
+  --color-primary-container: #00ea67;
+  --color-primary-fixed: #68ff8a;
+  --color-on-primary-fixed: #002108;
+  --color-on-primary-container: #006427;
+  --color-surface: #f8f9fb;
+  --color-surface-container: #eceef0;
+  --color-surface-container-low: #f2f4f6;
+  --color-surface-container-lowest: #ffffff;
+  --color-surface-container-high: #e6e8ea;
+  --color-on-surface: #191c1e;
+  --color-on-surface-variant: #3b4b3b;
+  --color-text-muted: #6c727f;
+  --color-border-subtle: #e5e7eb;
+
+  --font-display: "Outfit", sans-serif;
+  --font-headline: "Outfit", sans-serif;
+  --font-body: "Inter", sans-serif;
+}
+
+:root {
+  --font-family-base: "Inter", sans-serif;
+  --font-family-display: "Outfit", sans-serif;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #f8f9fb;
+  color: #191c1e;
+  -webkit-tap-highlight-color: transparent;
+  user-select: none;
+}
+
+h1, h2, h3, h4, .font-outfit {
+  font-family: 'Outfit', sans-serif;
+}
+
+/* Material symbols styling */
+.material-symbols-outlined {
+  font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+}
+
+.material-symbols-outlined.fill-1 {
+  font-variation-settings: 'FILL' 1, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+}
+
+/* Safe area insets for mobile */
+.pb-safe {
+  padding-bottom: max(1rem, env(safe-area-inset-bottom, 1rem));
+}
+
+.pt-safe {
+  padding-top: max(0.5rem, env(safe-area-inset-top, 0.5rem));
+}
+
+/* Custom scrollbars */
+::-webkit-scrollbar {
+  display: none;
+}
