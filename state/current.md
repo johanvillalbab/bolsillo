@@ -12,6 +12,7 @@
 - [x] **Lista de Gastos y Modo Vacío:** `ExpensesList` con soporte para borrar items y alternar entre mock data y empty state en el Header.
 - [x] **Navegación Móvil:** `BottomNav` fijo con pestañas y safe-area insets.
 - [x] **Memoria Persistente de Proyecto:** Sistema estructurado de contexto (`AGENTS.md`, `reglas.md`, `design.md`, `decisiones.md`, `state/`, `decisions/`, `gotchas/`, `logs/`, `skills/`).
+- [x] **Documentación Profesional:** README.md actualizado según mejores prácticas (badges, propuesta de valor, stack, inicio rápido y arquitectura).
 
 ---
 
